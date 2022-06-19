@@ -1,0 +1,36 @@
+.pilih hr {
+  width: 400px;
+  border-top: 4px solid #b71818;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.sedia hr {
+  width: 60px;
+  border-top: 4px solid #b71818;
+  margin-top: 5px;
+}
+
+.who hr {
+  width: 200px;
+  border-top: 4px solid #e62e2e;
+}
+
+.who h1 {
+  font-size: 64px;
+}
+
+.who2 p {
+  font-size: 30px;
+}
+
+.misi hr {
+  width: 60px;
+  border-top: 4px solid #b71818;
+}
+
+.misi .col-4 p {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 60px;
+}
