@@ -12,10 +12,11 @@
     <link rel="shortcut icon" href="img/RaihAsa.png" />
     <title>RaihAsa</title>
   </head>
+
   <body>
     <!-- Navbar -->
-    <div class="container-fluid border-bottom" style="background-color: black">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+    <div class="container-fluid fixed-top border-bottom" style="background-color: black">
+      <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
         <div class="container">
           <nav class="navbar navbar-dark">
             <div class="container">
@@ -28,13 +29,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#Who">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
             <button type="button" class="btn btn-outline-danger btn-sm justify-content-md-end rounded-pill" style="height: 40px; width: 80px">Login</button>
@@ -44,272 +45,279 @@
     </div>
     <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <div class="container-fluid pt-lg-5" style="background-color: black">
-      <div class="container">
-        <div class="row">
-          <div class="col-5">
-            <p class="fw-bold text-light lh-sm" style="font-size: 110px">Info Beasiswa dan Lomba</p>
-            <p class="fw-light mt-5 text-light" style="font-size: 20px">
-              Media yang menyediakan informasi <span style="color: #e62e2e">beasiswa</span> dan <span style="color: #e62e2e">lomba</span> yang Anda butuhkan. Selain itu, kami adalah media penyedia teman untuk mengikuti kompetisi
-            </p>
-          </div>
-
-          <div class="col-6 offset-1">
-            <p class="col-4 fw-light mt-5 text-light" style="font-size: 20px">Informasi lengkap dan up-to-date mengenai beasiswa & lomba</p>
-            <img src="img/unsplash_XkKCui44iM0.png" width="748px" height="720px" alt="gambar" />
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <div id="Home">
+        <!-- Jumbotron -->
+        <div class="container-fluid pt-lg-5 mt-lg-5" style="background-color: black">
+          <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <p class="fw-bold text-light lh-sm" style="font-size: 110px">Info Beasiswa dan Lomba</p>
+                <p class="fw-light mt-5 text-light" style="font-size: 20px">
+                  Media yang menyediakan informasi <span style="color: #e62e2e">beasiswa</span> dan <span style="color: #e62e2e">lomba</span> yang Anda butuhkan. Selain itu, kami adalah media penyedia teman untuk mengikuti kompetisi
+                </p>
+              </div>
+    
+              <div class="col-6 offset-1">
+                <p class="col-4 fw-light mt-5 text-light" style="font-size: 20px">Informasi lengkap dan up-to-date mengenai beasiswa & lomba</p>
+                <img src="img/unsplash_XkKCui44iM0.png" width="748px" height="720px" alt="gambar" />
+              </div>
+            </div>
           </div>
         </div>
+        <!-- Akhir Jumbotron -->
+
+        <!-- Pilih info -->
+        <div class="container-fluid py-lg-5" style="background-color: #efefef">
+          <div class="container">
+            <div class="row pilih">
+              <div class="col-12">
+                <p class="fw-bold text-center fs-2" style="border-width: 413px">Pilih informasi yang ingin dikunjungi</p>
+              </div>
+              <hr>
+            </div>
+    
+            <div class="row mt-5 justify-content-center">
+              <div type="button" class="col-5 py-3 text-center" style="background-color: white">
+                <p class="fw-bold fs-4 text-center">Beasiswa</p>
+                <p class="fs-6 text-center px-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Tortor egestas nunc felis.</p>
+                <div class="xm-auto">
+                  <img src="img/pilih beasiswa.png" style="height: 303px; width: 462;" >
+                </div>
+              </div>
+    
+    
+              <div type="button" class="col-5 offset-1 py-3 text-center" style="background-color: white">
+                <p class="fw-bold fs-4 text-center">Lomba</p>
+                <p class="fs-6 text-center px-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Tortor egestas nunc felis.</p>
+                <div class="xm-auto">
+                  <img src="img/pilih lomba.png" style="height: 303px; width: 462;">
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        </div>
+        <!-- Pilih Akhir info -->
+    
+        <!-- Apa yang kami sediakan -->
+        <div class="container-fluid" style="background-color: #efefef">
+          <div class="container py-lg-5">
+            <div class="row sedia">
+              <div class="col-4 ms-lg-5">
+                <hr>
+                <p class="fw-bold fs-1">Apa yang kami <br> <span style="color: #B71818">sediakan</span></p>
+              </div>
+              <div class="col-5 offset-2 mt-md-5">
+                <p class="fs-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ultrices cum est tortor, etiam. Egestas elementum integer lobortis nunc amet, </p>
+              </div>
+            </div>
+    
+            <div class="row mt-lg-5 gx-5">
+              <!-- content1 -->
+              <div class="col-4 py-5 px-5" style="background-color: white;">
+                <div class="d-flex flex-row justify-content-center">
+                  <img src="img/scholarship.png" style="height: 88x; width: 88px;">
+                  <p class="h3 ms-5 mt-2">Info Beasiswa <br> & Lomba</p>
+                </div>
+                <p class="fs-5 mx-auto mt-5">Informasi lengkap dan up-to-date
+                  mengenai beasiswa & lomba kepada
+                  pelajar SMA dan mahasiswa serta
+                  pengelompokkan berdasarkan kategori</p>
+              </div>
+              <!-- content2 -->
+              <div class="col-4 py-5 px-5" style="background-color: white;">
+                <div class="d-flex flex-row justify-content-center">
+                  <img src="img/scholarship2.png" style="height: 88x; width: 88px;">
+                  <p class="h3 ms-5 mt-2">Partner <br> & Lomba</p>
+                </div>
+                <p class="fs-5 mx-auto mt-5">Fitur cari teman bagi yang mengikuti
+                  lomba. Jadi akan terdapat forum untuk 
+                  berkomunikasi atau dapat melalui email 
+                  dengan melihat profil teman lain. </p>
+              </div>
+              <!-- content3 -->
+              <div class="col-4 py-5 px-5" style="background-color: white;">
+                <div class="d-flex flex-row justify-content-center">
+                  <img src="img/scholarship3.png" style="height: 88x; width: 88px;">
+                  <p class="h3 ms-5 mt-4">Reminder</p>
+                </div>
+                <p class="fs-5 mx-auto mt-5">Apabila menyalakan fitur reminder maka
+                  kami akan mengirimkan pemberitahuan 
+                  3 hari sebelum pendaftaran ditutup</p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+        <!-- akhir Apa yang kami sediakan -->
       </div>
-    </div>
-    <!-- Akhir Jumbotron -->
-
-    <!-- Pilih info -->
-    <div class="container-fluid py-lg-5" style="background-color: #efefef">
-      <div class="container">
-        <div class="row pilih">
-          <div class="col-12">
-            <p class="fw-bold text-center fs-2" style="border-width: 413px">Pilih informasi yang ingin dikunjungi</p>
-          </div>
-          <hr/>
-        </div>
-
-        <div class="row mt-5 justify-content-center">
-          <div class="col-5 py-3 text-center" style="background-color: white">
-            <p class="fw-bold fs-4 text-center">Beasiswa</p>
-            <p class="fs-6 text-center px-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Tortor egestas nunc felis.</p>
-            <div class="xm-auto">
-              <img src="img/pilih beasiswa.png" style="height: 303px; width: 462;" >
+  
+      <div id="Who">
+        <!-- Who Are We -->
+        <div class="container-fluid" style="background-color: black;">
+          <div class="container py-lg-5">
+            <div class="row who">
+              <div class="col-12">
+                <h1 class="text-center text-light">Who are we</h1>
+                <hr class="mx-auto">
+              </div>
+            </div>
+    
+            <div class="d-flex flex-row justify-content-center mt-5 who2">
+              <div class="col-4 mt-5">
+                <p class="text-light">Kami adalah website yang menyediakan informasi lengkap dan up-to-date seputar beasiswa dan lomba bagi pelajar SMA dan mahasiswa. Selain itu, kami juga menyediakan fitur yang dapat digunakan untuk mencari teman yang sesuai dalam mengikuti lomba</p>
+              </div>
+              <div class="col-1"></div>
+              <img src="img/who.png" width="639px" height="522px">
             </div>
           </div>
+        </div>
+        <!-- akhir Who Are We -->
 
-          <div class="col-1">
-          </div>
-
-          <div class="col-5 py-3 text-center" style="background-color: white">
-            <p class="fw-bold fs-4 text-center">Lomba</p>
-            <p class="fs-6 text-center px-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Tortor egestas nunc felis.</p>
-            <div class="xm-auto">
-              <img src="img/pilih lomba.png" style="height: 303px; width: 462;">
+        <!-- Misi Kami -->
+        <div class="container-fluid" style="background-color: #efefef;">
+          <div class="container py-lg-5">
+            <div class="row misi">
+              <div class="col-4">
+                <hr>
+                <p >Misi <br> kami</p>
+              </div>
+              <div class="col-5 offset-2 mt-md-5">
+                <p class="fs-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ultrices cum est tortor, etiam.  </p>
+              </div>
+            </div>
+    
+            <div class="row mt-5">
+              <!-- Content1 -->
+              <div class="col-4 py-4 px-3 text-center" style="background-color: white">
+                <div class="xm-auto">
+                  <img src="img/piala.png" style="height: 303px; width: 462;" >
+                </div>
+                <p class="fw-bold fs-4 text-center mt-4">Meningkatkan prestasi
+                  pemuda Indonesia</p>
+              </div>
+    
+             <!-- Content2 -->
+              <div class="col-4 py-4 px-3 text-center" style="background-color: white">
+                <div class="xm-auto">
+                  <img src="img/piala2.png" style="height: 303px; width: 462;" >
+                </div>
+                <p class="fw-bold fs-4 text-center mt-4">Membantu meraih mimpi
+                  pemuda Indonesia</p>
+              </div>
+    
+              <!-- Content3 -->
+              <div class="col-4 py-4 px-3 text-center" style="background-color: white">
+                <div class="xm-auto">
+                  <img src="img/nulis.png" style="height: 303px; width: 462;" >
+                </div>
+                <p class="fw-bold fs-4 text-center mt-4">Mengasah kemampuan
+                  Pemuda Indonesia</p>
+              </div>
+    
             </div>
           </div>
-
         </div>
+        <!-- akhir Misi Kami -->
       </div>
-    </div>
-
-    </div>
-    <!-- Pilih Akhir info -->
-
-    <!-- Apa yang kami sediakan -->
-    <div class="container-fluid" style="background-color: #efefef">
-      <div class="container py-lg-5">
-        <div class="row sedia">
-          <hr>
-          <div class="col-4">
-            <p class="fw-bold fs-1">Apa yang kami <br> <span style="color: #B71818">sediakan</span></p>
-          </div>
-          <div class="col-5 offset-2 mt-md-5">
-            <p class="fs-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ultrices cum est tortor, etiam. Egestas elementum integer lobortis nunc amet, </p>
-          </div>
-        </div>
-
-        <div class="row py-lg-3">
-          <!-- content1 -->
-          <div class="col-4 py-5 px-5" style="background-color: white;">
-            <div class="d-flex flex-row justify-content-center">
-              <img src="img/scholarship.png" style="height: 88x; width: 88px;">
-              <p class="h3 ms-5 mt-2">Info Beasiswa <br> & Lomba</p>
+  
+      <div id="Contact">
+        <!-- Contact Us -->
+        <div class="container-fluid" style="background-color: #efefef;">
+          <div class="container py-lg-5">
+            <div class="row contact">
+              <div class="col-12">
+                <p class="h1 text-center">Contact <span style="color: #B71818;">Us</span></p>
+                <hr>
+              </div>
             </div>
-            <p class="fs-5 mx-auto mt-5">Informasi lengkap dan up-to-date
-              mengenai beasiswa & lomba kepada
-              pelajar SMA dan mahasiswa serta
-              pengelompokkan berdasarkan kategori</p>
-          </div>
-          <!-- content2 -->
-          <div class="col-4 py-5 px-5" style="background-color: white;">
-            <div class="d-flex flex-row justify-content-center">
-              <img src="img/scholarship2.png" style="height: 88x; width: 88px;">
-              <p class="h3 ms-5 mt-2">Partner <br> & Lomba</p>
+    
+            <div class="row py-5 mt-4" style="background-color: white;">
+              <p class="h3 text-center">Hubungi kontak di bawah ini apabila ingin bekerja sama!</p>
+              
+              <div class="col-5 offset-1">
+                <div class="d-flex flex-row ms-5 mt-5">
+                  <div class="mt-1">
+                    <img src="img/phone.png" width="20px" height="22px">
+                  </div>
+                  <p class="ms-3 fs-4">+62 8956-2109-8843</p>
+                </div>
+                <div class="d-flex flex-row ms-5 mt-4">
+                  <div class="mt-1">
+                    <img src="img/location.png" width="20px" height="26px">
+                  </div>
+                  <p class="ms-3 fs-4">Infomation technologies building, <br>
+                    Victoria Island, Lagos, Nigeria.</p>
+                </div>
+              </div>
+    
+              <div class="col-4 offset-2 mt-3">
+                <div class="d-flex flex-row ms-5 mt-5">
+                  <div class="mt-1">
+                    <img src="img/sosmed.png" width="200px" height="22px">
+                  </div>
+                </div>
+                <div class="d-flex flex-row ms-5 mt-4">
+                  <div class="mt-1">
+                    <img src="img/mail.png" width="20px" height="16px">
+                  </div>
+                  <p class="ms-3 fs-4">hello@info.com.ng</p>
+                </div>
+              </div>
             </div>
-            <p class="fs-5 mx-auto mt-5">Fitur cari teman bagi yang mengikuti
-              lomba. Jadi akan terdapat forum untuk 
-              berkomunikasi atau dapat melalui email 
-              dengan melihat profil teman lain. </p>
-          </div>
-          <!-- content3 -->
-          <div class="col-4 py-5 px-5" style="background-color: white;">
-            <div class="d-flex flex-row justify-content-center">
-              <img src="img/scholarship3.png" style="height: 88x; width: 88px;">
-              <p class="h3 ms-5 mt-4">Reminder</p>
-            </div>
-            <p class="fs-5 mx-auto mt-5">Apabila menyalakan fitur reminder maka
-              kami akan mengirimkan pemberitahuan 
-              3 hari sebelum pendaftaran ditutup</p>
           </div>
         </div>
+        <!-- Akhir Contact Us -->
 
-      </div>
-    </div>
-    <!-- akhir Apa yang kami sediakan -->
-
-    <!-- Who Are We -->
-    <div class="container-fluid" style="background-color: black;">
-      <div class="container py-lg-5">
-        <div class="row who">
-          <div class="col-12">
-            <h1 class="text-center text-light">Who are we</h1>
-            <hr class="mx-auto">
-          </div>
-        </div>
-
-        <div class="d-flex flex-row justify-content-center mt-5 who2">
-          <div class="col-4 mt-5">
-            <p class="text-light">Kami adalah website yang menyediakan informasi lengkap dan up-to-date seputar beasiswa dan lomba bagi pelajar SMA dan mahasiswa. Selain itu, kami juga menyediakan fitur yang dapat digunakan untuk mencari teman yang sesuai dalam mengikuti lomba</p>
-          </div>
-          <div class="col-1"></div>
-          <img src="img/who.png" width="639px" height="522px">
-        </div>
-      </div>
-    </div>
-    <!-- akhir Who Are We -->
-
-    <!-- Misi Kami -->
-    <div class="container-fluid" style="background-color: #efefef;">
-      <div class="container py-lg-5">
-        <div class="row misi">
-          <hr>
-          <div class="col-4">
-            <p >Misi <br> kami</p>
-          </div>
-          <div class="col-5 offset-2 mt-md-5">
-            <p class="fs-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ultrices cum est tortor, etiam.  </p>
-          </div>
-        </div>
-
-        <div class="row mt-5">
-          <!-- Content1 -->
-          <div class="col-4 py-4 px-3 text-center" style="background-color: white">
-            <div class="xm-auto">
-              <img src="img/piala.png" style="height: 303px; width: 462;" >
-            </div>
-            <p class="fw-bold fs-4 text-center mt-4">Meningkatkan prestasi
-              pemuda Indonesia</p>
-          </div>
-
-         <!-- Content2 -->
-          <div class="col-4 py-4 px-3 text-center" style="background-color: white">
-            <div class="xm-auto">
-              <img src="img/piala2.png" style="height: 303px; width: 462;" >
-            </div>
-            <p class="fw-bold fs-4 text-center mt-4">Membantu meraih mimpi
-              pemuda Indonesia</p>
-          </div>
-
-          <!-- Content3 -->
-          <div class="col-4 py-4 px-3 text-center" style="background-color: white">
-            <div class="xm-auto">
-              <img src="img/nulis.png" style="height: 303px; width: 462;" >
-            </div>
-            <p class="fw-bold fs-4 text-center mt-4">Mengasah kemampuan
-              Pemuda Indonesia</p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- akhir Misi Kami -->
-
-    <!-- Contact Us -->
-    <div class="container-fluid" style="background-color: #efefef;">
-      <div class="container py-lg-5">
-        <div class="row contact">
-          <div class="col-12">
-            <p class="h1 text-center">Contact <span style="color: #B71818;">Us</span></p>
-            <hr>
-          </div>
-        </div>
-
-        <div class="row py-5 mt-4" style="background-color: white;">
-          <p class="h3 text-center">Hubungi kontak di bawah ini apabila ingin bekerja sama!</p>
+        <!-- Footer -->
+        <div class="container-fluid" style="background-color: black;">
+          <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+              <div class="col mb-3">
+                <img src="img/RaihAsa.png" class="d-flex align-items-center mb-3"></img>
+                <p class="text-light">&copy; 2022</p>
+              </div>
           
-          <div class="col-5 offset-1">
-            <div class="d-flex flex-row ms-5 mt-5">
-              <div class="mt-1">
-                <img src="img/phone.png" width="20px" height="22px">
+              <div class="col mb-3">
+          
               </div>
-              <p class="ms-3 fs-4">+234 081-1236-4568</p>
-            </div>
-            <div class="d-flex flex-row ms-5 mt-4">
-              <div class="mt-1">
-                <img src="img/location.png" width="20px" height="26px">
+          
+              <div class="col mb-3 text-light">
+                <h5>Company</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+                </ul>
               </div>
-              <p class="ms-3 fs-4">Infomation technologies building, <br>
-                Victoria Island, Lagos, Nigeria.</p>
-            </div>
+          
+              <div class="col mb-3 text-light">
+                <h5>Contact Us</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Us</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Careers</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Teams</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3 text-light">
+                <h5 class="mb-5">Get Started</h5>
+                <img src="img/imgFooter.png" width="200px" height="25px">
+              </div>
+            </footer>
           </div>
-
-          <div class="col-4 offset-2 mt-3">
-            <div class="d-flex flex-row ms-5 mt-5">
-              <div class="mt-1">
-                <img src="img/sosmed.png" width="200px" height="22px">
-              </div>
-            </div>
-            <div class="d-flex flex-row ms-5 mt-4">
-              <div class="mt-1">
-                <img src="img/mail.png" width="20px" height="16px">
-              </div>
-              <p class="ms-3 fs-4">hello@info.com.ng</p>
-            </div>
-          </div>
+    
         </div>
+        <!-- Akhir Footer -->
       </div>
+  
     </div>
-    <!-- Akhir Contact Us -->
-
-    <!-- Footer -->
-    <div class="container-fluid" style="background-color: black;">
-      <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
-          <div class="col mb-3">
-            <img src="img/RaihAsa.png" class="d-flex align-items-center mb-3"></img>
-            <p class="text-light">&copy; 2022</p>
-          </div>
-      
-          <div class="col mb-3">
-      
-          </div>
-      
-          <div class="col mb-3 text-light">
-            <h5>Company</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3 text-light">
-            <h5>Contact Us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Careers</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Teams</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3 text-light">
-            <h5 class="mb-5">Get Started</h5>
-            <img src="img/imgFooter.png" width="200px" height="25px">
-          </div>
-        </footer>
-      </div>
-
-    </div>
-    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
